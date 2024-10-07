@@ -1,0 +1,23 @@
+Source: pbuilder-config
+Section: misc
+Priority: optional
+Maintainer: Jordan Garcia <j.joseph_g@yahoo.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://github.com/JordanJGarcia/pbuilder-config
+Vcs-Browser: https://github.com/JordanJGarcia/pbuilder-config
+Vcs-Git: https://github.com/JordanJGarcia/pbuilder-config.git
+Rules-Requires-Root: no
+
+Package: pbuilder-config
+Architecture: all
+Depends: cowbuilder,
+         debhelper-compat,
+         debmake,
+         debootstrap,
+         eatmydata,
+         pbuilder,
+         ${misc:Depends}
+Description: personal configuration for pbuilder
+ This package is a personal configuration for pbuilder
+ to easily install on machines.

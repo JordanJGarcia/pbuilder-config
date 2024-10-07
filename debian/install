@@ -1,0 +1,2 @@
+share/hooks/* /usr/libexec/pbuilder/hooks/
+share/pbuilderrc /etc/

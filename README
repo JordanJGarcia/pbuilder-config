@@ -1,0 +1,4 @@
+# pbuilder-config
+
+This package installs my version of /etc/pbuilderrc, some hooks for pbuilder, a bash script to build packages,
+and the necessary dependencies to start building debian packages
